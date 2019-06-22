@@ -4,9 +4,9 @@ def line (katzDeli)
 if katzDeli.length == 0 
   puts "The line is currently empty."
 else 
-  msg= "The line is currently: "
+  msg= "The line is currently:"
   katzDeli.each_with_index do |name,idx|
-    msg += "#{idx.to_i+1}. #{name}"
+    msg += " #{idx.to_i+1}. #{name}"
   end
   puts "#{msg}"
 end
