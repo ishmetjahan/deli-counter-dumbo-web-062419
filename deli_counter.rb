@@ -27,8 +27,8 @@ end
  # elsif array.empty?== false 
  # puts "Currently serving #{array.shift}"
   #.shift removes and returns the first element from the array
-end
-end 
+#end
+#end 
   
 #
 #
