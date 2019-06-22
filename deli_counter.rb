@@ -25,7 +25,7 @@ def now_serving (katzDeli)
   if katzDeli.empty? == true 
    puts "There is nobody waiting to be served!"
   elsif katzDeli.empty?== false 
- puts "Currently serving #{katzDeli.shift}"
+ puts "Currently serving #{katzDeli.shift}."
   #.shift removes and returns the first element from the array
 end
 end 
