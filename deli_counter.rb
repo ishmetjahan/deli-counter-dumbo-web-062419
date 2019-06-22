@@ -19,5 +19,9 @@ def take_a_number(katzDeli, name)
   puts "Welcome, #{name}. You are number #{katzDeli.length} in line"
 end
 #
+def now_serving (arr)
+  if array.empty? == true 
+    puts "There is no"
+  
 #
 #
