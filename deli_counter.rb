@@ -22,9 +22,9 @@ def take_a_number(katzDeli, name)
 end
 #
 def now_serving (katzDeli)
-  if katzDeli.empty? == true 
+  if katzDeli.length ==0 
    puts "There is nobody waiting to be served!"
-  elsif katzDeli.empty?== false 
+  else
  puts "Currently serving #{katzDeli.shift}."
   #.shift removes and returns the first element from the array
 end
