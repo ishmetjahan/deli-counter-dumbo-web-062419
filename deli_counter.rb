@@ -16,7 +16,9 @@ end
 #
 def take_a_number(katzDeli, name)
   katzDeli.push(name)
-  puts "Welcome, #{name}. You are number #{katzDeli.length} in line"
+  position= array.index(name)
+  puts "Welcome, #{name}. You are number #{katzDeli.index(name)+1} in line."
+  return name, position
 end
 #
 def now_serving (arr)
