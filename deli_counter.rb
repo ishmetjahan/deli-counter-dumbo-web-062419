@@ -24,7 +24,7 @@ def now_serving (arr)
     puts "There is nobody waiting to be served!"
   elsif array.empty?== false 
   puts "Currently serving #{array.shift}"
-  #.shift removes and returns 
+  #.shift removes and returns the first element from the array
 end
 end 
   
