@@ -1,14 +1,13 @@
 # Write your code here.
 def line (katzDeli)
-if katzDeli.length >=1 
-  currentLine= "The "
-  katzDeli.each.with_index(1) do |ele,idx|
-    newArr.push("#{count}. #{ele}")
-  count+=1 
-end
-puts "The line is currently:#{newArr.join(" ")}"
-else
+if katzDeli.length ==0 
   puts "The line is currently empty."
+else 
+  msg= "The line is currently:"
+  array.each_with_index do |name,idx|
+    msg += "#{idx.to_i+1}. #{name}"
+  end
+  puts "#{msg}"
 end
 end 
 #
