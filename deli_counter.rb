@@ -21,11 +21,11 @@ def take_a_number(katzDeli, name)
   return name, position
 end
 #
-def now_serving (arr)
-  if array.empty? == true 
-    puts "There is nobody waiting to be served!"
-  elsif array.empty?== false 
-  puts "Currently serving #{array.shift}"
+#def now_serving (arr)
+  #if array.empty? == true 
+  #  puts "There is nobody waiting to be served!"
+ # elsif array.empty?== false 
+ # puts "Currently serving #{array.shift}"
   #.shift removes and returns the first element from the array
 end
 end 
